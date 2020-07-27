@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<factura>
+		<negocio>
+			<codigofactura>SRI3635</codigofactura>
+			<rucempresa>147258369</rucempresa>
+			<cedula>1722305198</cedula>
+			<nombre>Diana </nombre>
+			<apellido>Narvaez</apellido>
+			<fecha>2020-07-22</fecha>
+			<telefono>celular</telefono>
+			<direccion>Alangasi</direccion>
+			<cantidad>5</cantidad>
+			<detalle>Peluches</detalle>
+			<formapago>Efectivo</formapago>
+			<total>12.5</total>
+		</negocio>
+	</factura>
