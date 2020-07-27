@@ -1,0 +1,78 @@
+factura,img,h1 {
+  display: table;
+  border-spacing: 10px;
+  border: 2px solid black;  
+  background-color:whitesmoke;
+  margin: auto;
+}
+
+[class=F]{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+[class=P]{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+codigofactura,rucempresa,cedula,nombre, apellido,fecha,telefono,direccion,
+cantidad, detalle,formapago,total
+{
+    display: block;
+    margin-left: 50px;
+    border-spacing: 10px;
+    border: black;
+    color: darkslategrey;
+    padding: 5px;
+    font-size: 20px;
+}
+
+codigofactura:before{
+    content: "Código Factura: ";
+    color: green;
+}
+rucempresa:before{
+    content: "Ruc de la Empresa: ";
+    color: green;
+}
+cedula:before{
+    content: "Cédula del Cliente: ";
+    color: green;
+}
+nombre::before{
+    content: "Nombre del Cliente: ";
+    color: green;
+}
+apellido:before{
+    content: "Apellido del Cliente: ";
+    color: green;
+}
+fecha:before{
+    content: "Fecha de la compra: ";
+    color: green;
+}
+telefono:before{
+    content: "Tipo de teléfono del Cliente: ";
+    color: green;
+}
+direccion:before{
+    content: "Dirección del Cliente: ";
+    color: green;  
+}
+cantidad:before{
+    content: "Cantidad en unidades: ";
+    color: green;
+}
+detalle:before{
+    content: "Detalle: ";
+    color: green;
+}
+formapago:before{
+    content: "Forma de Pago: ";
+    color: green;
+}
+total:before{
+    content: "Total: ";
+    color: green;
+}
